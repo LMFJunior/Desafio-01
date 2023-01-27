@@ -1,0 +1,54 @@
+*{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.container-position{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container{
+    width: 25%;
+    height: 400px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+.header{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(74, 74, 74);
+    
+}
+
+.content{
+    text-align: center;
+    height: 75%;
+}
+
+.city{
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+.temp{
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.search-bar, .search-options {
+    display: flex;
+    justify-content: center;
+}
+
+/* -------- */
+
